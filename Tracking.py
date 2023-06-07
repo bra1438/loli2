@@ -32,7 +32,7 @@ id_container = st.sidebar.empty()
 name_container.info('Name: Unnknown')
 id_container.success('ID: Unknown')
 if choice == "Picture":
-    st.title("Developed by MISS LAILA by her Slave and Dog Barhoum : Face Recognition App")
+    st.title("Developed by MISS LAILA : Face Recognition App")
     st.write(PICTURE_PROMPT)
     uploaded_images = st.file_uploader("Upload",type=['jpg','png','jpeg'],accept_multiple_files=True)
     if len(uploaded_images) != 0:
